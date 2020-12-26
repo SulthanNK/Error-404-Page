@@ -98,7 +98,7 @@ main {
 footer {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .profile-link {
@@ -112,6 +112,10 @@ footer {
 
 /* Tablet Screen Size */
 @media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
   .page-title {
     margin: 13px 0 0 27px;
     font-size: 18px;
@@ -141,18 +145,16 @@ footer {
 
   .sub-title {
     font-size: 50px;
-    font-weight: 700;
-    font-style: normal;
 
     margin: 20px 0;
     padding: 0 145px 0 65px;
   }
 
   .content {
-    font-size: 15px;
+    font-size: 18px;
     margin: 20px 0 35px 0;
     padding-left: 65px;
-    padding-right: 295px;
+    padding-right: 245px;
   }
 
   .btn {
@@ -163,5 +165,64 @@ footer {
 
   .profile-link {
     font-size: 10px;
+  }
+}
+
+/* Mobile Screen Size */
+@media (min-width: 320px) and (max-width: 415px) {
+  body {
+    padding: 8px;
+  }
+
+  .page-title {
+    margin: 8px 0 0 15px;
+    font-size: 12px;
+  }
+
+  main {
+    margin: 10px 0 0 15px;
+  }
+
+  .container {
+    grid-gap: 0;
+    margin-bottom: 40px;
+  }
+
+  .content-img {
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+  }
+
+  .wrapper {
+    padding: 0;
+    margin: 0;
+  }
+
+  .sub-title {
+    font-size: 31px;
+    margin: 8px 0;
+    padding: 0;
+  }
+
+  .content {
+    font-size: 11px;
+    margin: 10px 0 25px 0;
+    padding-left: 0px;
+    padding-right: 61px;
+  }
+
+  .btn {
+    font-size: 8px;
+    padding: 10px 12px;
+    margin-left: 0px;
+  }
+
+  footer {
+    padding-bottom: 20px;
+  }
+
+  .profile-link {
+    font-size: 8px;
   }
 }
