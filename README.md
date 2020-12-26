@@ -63,10 +63,6 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
-## Deployment
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/576ecd51-7626-4539-aa9d-2110ab7c3b6d/deploy-status)](https://app.netlify.com/sites/theerrorpage/deploys)
-
 ## Contact
 
 - GitHub [@SulthanNK](https://github.com/SulthanNK)
