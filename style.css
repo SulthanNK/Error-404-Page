@@ -111,6 +111,12 @@ footer {
   line-height: 17px;
 }
 
+.site-link {
+  text-decoration: none;
+
+  color: var(--primary-font-color);
+}
+
 /* Tablet Screen Size */
 @media (max-width: 768px) {
   body {
