@@ -99,6 +99,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding-bottom: 25px;
+  color: var(--secondary-font-color);
 }
 
 .profile-link {
