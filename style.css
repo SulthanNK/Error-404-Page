@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap");
 
 :root {
   --background-color: #ffffff;
@@ -23,7 +23,7 @@ body {
 }
 
 .page-title {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-weight: 700;
   font-style: normal;
   font-size: 24px;
@@ -35,7 +35,7 @@ body {
 }
 
 main {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 
   margin: 80px 0 0 57px;
 }
@@ -96,7 +96,7 @@ main {
 }
 
 footer {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding-bottom: 25px;
   color: var(--secondary-font-color);
